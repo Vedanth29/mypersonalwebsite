@@ -13,8 +13,8 @@ a {
 }
 
 a:hover {
-  color: #ade5ff;
-  text-decoration: none;
+  color: #00ccff;
+  text-decoration:none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #011022;
   overflow-y: auto;
 }
 
@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #9b9898;
+  border: 8px solid #4d4d4d;
 }
 
 #header .profile h1 {
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #132a49;
+  background: #150c8d;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -161,7 +161,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   text-decoration: none;
-  color: rgb(60, 78, 160);
+  background-color: rgb(106, 177, 201);
+  color: rgb(0, 0, 0);
 }
 
 .nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
@@ -236,17 +237,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero p {
-  color: rgb(0, 132, 255);
+  color: rgb(255, 0, 0);
+  background-color:rgb(255, 255, 255);
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
-  color: rgb(0, 110, 255);
+  color: rgb(0, 60, 255);
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #4168d3;
+  border-bottom: 3px solid #0044ff;
 }
 
 @media (min-width: 1024px) {
@@ -276,7 +278,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #c9edfc;
 }
 
 .section-title {
@@ -289,16 +291,16 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #003cff;
 }
 
 .section-title h2::after {
   content: '';
-  position: absolute;
-  display: block;
-  width: 50px;
+  position:absolute;
+  display:block;
+  width: 1000px;
   height: 3px;
-  background: #2c46db;
+  background: #0873ff;
   bottom: 0;
   left: 0;
 }
@@ -342,7 +344,7 @@ section {
 .skills .progress {
   height: 50px;
   display: block;
-  background: none;
+  background:none;
 }
 
 .skills .progress .skill {
@@ -361,14 +363,14 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #dce8f8;
+  background: #ffe5e5;
 }
 
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #db4848;
+  background-color: #08fa00;
 }
 
 /*--------------------------------------------------------------
@@ -428,8 +430,8 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
-  border: 2px solid #1f5297;
+  background: rgb(238, 255, 1);
+  border: 2px solid #eeff00;
 }
 
 /*--------------------------------------------------------------
@@ -444,7 +446,7 @@ section {
   margin: 0 auto 35px auto;
   list-style: none;
   text-align: center;
-  background: #fff;
+  background: rgb(255, 255, 255);
   border-radius: 50px;
   padding: 2px 15px;
 }
@@ -728,7 +730,7 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  background: #000000;
 }
 
 #footer .copyright {
